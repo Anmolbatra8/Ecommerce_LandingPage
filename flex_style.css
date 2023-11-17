@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav li {
+    list-style: none;
+    margin-right: 25px;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+main {
+   
+    text-align: center;
+ }
+
+.prod-listing {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+  
+  .product-card {
+    border: 1px solid black;
+    width: 26%;
+    height: 40%;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 6px;
+    
+    text-align: center;
+  }
+  
+  .prod-img {
+    max-width: 100%;
+    width: 100%;
+    height: 50%;
+    border-radius: 8px;
+    border: 2px dotted goldenrod;
+  }
+  
+  .actions {
+    margin-top: 12px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: green;
+  }
+  
+
+
